@@ -15,7 +15,7 @@ deploy:
   keep-history: true
   github-token: $GITHUB_TOKEN
   local-dir: dist/
-  target-branch: gh-pages
+  target-branch: gh-web-site
   commit_message: "Deploy Release"
   on:
     branch
